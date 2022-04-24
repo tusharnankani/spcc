@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 #define SIZE 10
+// A->Ba|Aa|c
+// B->Bb|Ab|d
 int main()
 {
     char non_terminal;
@@ -36,7 +38,7 @@ int main()
                 printf("Can't be reduced\n");
         }
         else
-            printf("Not left recursive.\n");
+            printf(" not left recursive.\n");
         index = 3;
     }
 }
